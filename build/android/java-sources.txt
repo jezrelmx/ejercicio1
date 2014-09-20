@@ -1,0 +1,8 @@
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/android/support/v7/appcompat/R.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/mx/gob/df/cgma/ejemplo1/ApplicationStylesheet.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/mx/gob/df/cgma/ejemplo1/AssetCryptImpl.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/mx/gob/df/cgma/ejemplo1/Ejemplo1Activity.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/mx/gob/df/cgma/ejemplo1/Ejemplo1AppInfo.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/mx/gob/df/cgma/ejemplo1/Ejemplo1Application.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/mx/gob/df/cgma/ejemplo1/R.java"
+"/Users/jezrel_mx/Documents/Titanium_Studio_Workspace/ejemplo 1/build/android/gen/ti/modules/titanium/ui/R.java"
