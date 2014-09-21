@@ -1,8 +1,7 @@
+altoDispositivo = Ti.Platform.displayCaps.platformHeight,
+anchoDispositivo = Ti.Platform.displayCaps.platformWidth;
 
-height = Ti.Platform.displayCaps.platformHeight,
-width = Ti.Platform.displayCaps.platformWidth;
-
-console.log('alto '+height+' ancho '+width);
+console.log('alto '+altoDispositivo+' ancho '+anchoDispositivo);
 
 var miTabGroup = Ti.UI.createTabGroup();
 
@@ -22,8 +21,9 @@ var etSQL = Ti.UI.createLabel({
   	font: { fontSize:12 },
   	text: 'Arme su sentencia SQL',
   	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
-  	top: 30,
-  	width: Ti.UI.SIZE, height: '10%'
+  	// top: 30,
+  	width: Ti.UI.SIZE,
+  	height: '10%'
 });
 
 ventana1.add(etSQL);
@@ -51,9 +51,15 @@ miTabGroup.addTab(pestana2);
 miTabGroup.open();
 
 btnConsultar.addEventListener('click', function(e) {
+	var etprueba = Ti.UI.createLabel({
+		color: '#545861',
+	  	font: { fontSize:12 },
+	  	text: 'prueba',
+	  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	  	top: 30,
+	  	width: Ti.UI.SIZE, height: '10%'
+	});
+	ventana2.add(etprueba);
 	var tabAdministrados = miTabGroup.getTabs();
-	Ti.API.info(miTabGroup.getActiveTab());
-	Ti.API.info(tabAdministrados[1]);
-	Ti.API.info(tabAdministrados[0]);
 	miTabGroup.setActiveTab(tabAdministrados[1]);
 });
